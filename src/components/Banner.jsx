@@ -24,7 +24,7 @@ export default function Banner({ fileName, onReset }) {
                 </svg>
 
                 <p className="ml-3 text-sm font-medium text-white">
-                  Jelenleg demó adatokat látsz. A teljes funkciókhoz töltsd fel az{' '}
+                  Jelenleg demó adatokat látsz. Kérlek töltsd fel az{' '}
                   <Link
                     href="https://internetbank.otpbank.hu/"
                     target="_blank"
@@ -32,7 +32,7 @@ export default function Banner({ fileName, onReset }) {
                   >
                     OTP InternetBankból
                   </Link>{' '}
-                  letöltött xlsx fájlt.
+                  letöltött xlsx file-t.
                 </p>
               </>
             )}
