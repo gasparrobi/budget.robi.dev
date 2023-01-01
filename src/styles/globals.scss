@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.emoji {
+  font-family: 'Noto Color Emoji', sans-serif;
+  font-size: 16px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background-color: rgb(243 244 246 / 1);
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overscroll-behavior: none;
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    /* color-scheme: dark; */
+  }
+  body {
+    /* color: white; */
+    /* background: black; */
+  }
+}
+
+.blurred {
+  text-shadow: 0 0 14px black;
+  color: transparent;
+
+  &--light {
+    text-shadow: 0 0 14px white;
+    color: transparent;
+  }
+}
