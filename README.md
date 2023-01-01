@@ -13,7 +13,7 @@ Jelenleg csak az OTP Bank támogatott.
 Az oldal csak kliens oldali logikát tartalmaz. A kliens oldali használat azt jelenti, hogy a fájlokat a böngészőben futó JavaScript vagy egyéb kód használja,
 de nem kerülnek továbbításra semmilyen szerverre. Ebben az esetben a fájlok csak a böngészőben vannak tárolva, és nem érik el őket külső személyek.
 Tehát betöltés után akár internetkapcsolat nélkül is használhatod az oldalt.<br> Ezen kívül a forráskód nyíltan elérhető
-a <a href="#" target="_blank" rel="noreferrer noopener">Githubon</a>.
+a <a href="https://github.com/gasparrobi/budget.robi.dev" target="_blank" rel="noreferrer noopener">Githubon</a>.
 
 ## Hogyan tudom letölteni az OTPs tranzakcióimat?
 
