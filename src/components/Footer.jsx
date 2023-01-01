@@ -7,7 +7,7 @@ export default function Footer() {
         <nav className="flex flex-wrap justify-center" aria-label="Footer">
           <div className="flex gap-4">
             <Link
-              href="https://github.com/gasparrobi"
+              href="https://github.com/gasparrobi/budget.robi.dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-team-current focus:text-team-current focus:outline-none"
