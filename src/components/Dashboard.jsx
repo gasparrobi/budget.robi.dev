@@ -26,7 +26,7 @@ export default function Dashboard() {
   const [totalIncome, setTotalIncome] = useState(sampleIncome);
   const [totalExpense, setTotalExpense] = useState(sampleExpense);
   const [totalExpenseByCategory, setTotalExpenseByCategory] = useState(
-    sampleTotalExpanseByCategory
+    sampleTotalExpanseByCategory.sort((a, b) => b.value - a.value)
   );
   const [mostFreqCategories, setMostFreqCategories] = useState(
     sampleMostFreqExpenseByCategoryData
